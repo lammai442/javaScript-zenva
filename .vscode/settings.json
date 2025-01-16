@@ -1,0 +1,5 @@
+{
+  "prettier.semi": true,
+  "prettier.proseWrap": "preserve",
+  "prettier.bracketSpacing": true
+}
