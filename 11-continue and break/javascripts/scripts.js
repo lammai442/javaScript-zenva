@@ -6,7 +6,7 @@ while(fuel > 0) {
     // Öka distansen för varje loop med 1
     distance++;
 
-    if(distance >= 100 && distance <= 200) {
+    if(distance >= 100 && distance < 200) {
         // Med continue så kan man avsluta nuvarande iteration och återgå tillbaka till loopens start och kolla om det ska köras. Den kommer inte att köra nedanstående.
         continue;
     }
